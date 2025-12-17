@@ -2,8 +2,6 @@
 function a(){
     console.log("a is called");
 }
-
-
 //  Function Expression
 var b = function (){
     console.log("b is called");
@@ -27,6 +25,8 @@ xyz();  // Not defined because it is not in global space or scope.....
 var c = function (param1){
     console.log(param1);
 }
+
+
 var d = function (){
     return function cool(){
         console.log("Java");
